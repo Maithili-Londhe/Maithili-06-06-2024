@@ -1,0 +1,54 @@
+=> what is exception handling?
+
+Answer: exception handling is mechanism/process in java programming, to handle
+        compile time or runtime exceptions/errors(problems).
+
+
+=> why we use exception handling?
+
+Answer: To maintain the normal flow a java program execution, we use exception handling
+        concept.
+
+=> how we implement exception handling in Java Programming?
+
+Answer: in java programming we have certain blocks and keywords, which can help
+        us to implement exception handling techniques.
+        
+        Blocks:
+           - try
+           - catch
+           - finally
+        
+        Keywords:
+        	- throws-We can declare multiple exceptions using throws keyword that can be thrown 
+        	         by the method. For example, main() throws IOException, SQLException.
+        	- throw-We are allowed to throw only one exception at 
+        	   a time i.e. we cannot throw multiple exceptions.
+
+=> where we use exception handling?
+
+Answer: In case of arrays, strings, cloning, database connectivity, 
+        io, threads...etc.
+
+Note: The 'Throwable' class is the superclass of all Errors and Exceptions 
+      in the Java language.
+      
+Error: An Error is a subclass of Throwable that indicates serious problems 
+        that a reasonable application should not try to catch. 
+        Most such errors are abnormal conditions.
+        
+Exception: The class Exception and its subclasses are a form of Throwable 
+           that indicates conditions that a reasonable application 
+           might want to catch.
+
+Types of Java Exceptions
+	- checked/compile time exceptions
+		- The class Exception and any subclasses that are not also 
+		  subclasses of "RuntimeException" are checked exceptions.
+		  
+	- unchecked/runtime exceptions
+		- RuntimeException and its subclasses are unchecked exceptions.
+
+** Custom Exceptions
+
+
